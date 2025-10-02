@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Skintific Skincare — UMKM</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="theme-color" content="#E75A7C"/>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">S</div>
+        <div>
+          <h1>Skintific</h1>
+          <p class="tag">Skincare Alami & Teruji</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#products">Produk</a>
+        <a href="#about">Tentang</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+
+      <button class="menu-btn" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Skincare Lokal — Aman, Lembut, & Terjangkau</h2>
+          <p>Produk berbahan alami, diformulasi untuk kulit sensitif. Konsultasi gratis untuk pembelian paket pertama.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#products">Lihat Produk</a>
+            <a class="btn ghost" href="#contact">Hubungi</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=70" alt="Skincare" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section container">
+      <h3>Produk Kami</h3>
+      <p class="lead">Rangkaian produk untuk perawatan harian — pilih sesuai kebutuhan kulitmu.</p>
+
+      <div class="grid products-grid">
+        <article class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1612817159949-1c80274a7f63?auto=format&fit=crop&w=800&q=80" alt="Moisturizer" />
+          <div class="card-body">
+            <h4>Moisturizer</h4>
+            <p class="price">Rp85.000</p>
+            <p class="desc">Pelembab ringan dengan Hyaluronic Acid, cocok untuk semua jenis kulit.</p>
+            <div class="card-actions">
+              <button class="btn outline" data-product="Moisturizer">Detail</button>
+              <a class="btn primary" href="https://wa.me/6281234567890?text=Order%20Moisturizer">Beli</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1601049676869-702ea24cfd54?auto=format&fit=crop&w=800&q=80" alt="Serum" />
+          <div class="card-body">
+            <h4>Brightening Serum</h4>
+            <p class="price">Rp120.000</p>
+            <p class="desc">Serum pencerah dengan vitamin C stabil untuk kulit lebih cerah alami.</p>
+            <div class="card-actions">
+              <button class="btn outline" data-product="Brightening Serum">Detail</button>
+              <a class="btn primary" href="https://wa.me/6281234567890?text=Order%20Brightening%20Serum">Beli</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1620912189861-1f1bb3f26ef2?auto=format&fit=crop&w=800&q=80" alt="Facial Wash" />
+          <div class="card-body">
+            <h4>Facial Wash</h4>
+            <p class="price">Rp65.000</p>
+            <p class="desc">Pembersih lembut yang membersihkan tanpa membuat kulit kering.</p>
+            <div class="card-actions">
+              <button class="btn outline" data-product="Facial Wash">Detail</button>
+              <a class="btn primary" href="https://wa.me/6281234567890?text=Order%20Facial%20Wash">Beli</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section alt">
+      <div class="container">
+        <h3>Tentang Skintific</h3>
+        <div class="about-grid">
+          <div>
+            <p>Skintific dibuat untuk memberikan solusi perawatan kulit yang efektif dan aman bagi semua. Kami menggunakan bahan yang transparan dan melakukan uji kecil sebelum produksi.</p>
+            <ul class="bullets">
+              <li>✔ Bahan alami & teruji</li>
+              <li>✔ Ramah kulit sensitif</li>
+              <li>✔ Kemasan ramah lingkungan</li>
+              <li>✔ Garansi 7 hari</li>
+            </ul>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1545259742-3b5f7f5c3f4f?auto=format&fit=crop&w=800&q=60" alt="Tentang kami" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h3>Kontak & Pemesanan</h3>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <p>📍 Jakarta, Indonesia</p>
+            <p>📞 WhatsApp: <a href="https://wa.me/6281234567890">0812-3456-7890</a></p>
+            <p>✉️ Email: <a href="mailto:halo@skintific.id">halo@skintific.id</a></p>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <input id="name" type="text" placeholder="Nama" required />
+            <input id="email" type="email" placeholder="Email / WhatsApp" required />
+            <textarea id="message" rows="5" placeholder="Pesan / Order" required></textarea>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Kirim</button>
+              <a class="btn outline" href="https://wa.me/6281234567890">Chat WhatsApp</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> Skintific — UMKM Skincare Lokal</small>
+    </div>
+  </footer>
+
+  <!-- floating WhatsApp -->
+  <a class="floating-wa" href="https://wa.me/6281234567890" target="_blank" rel="noreferrer">Chat</a>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+
+  <!-- Register service worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').catch((err) => console.warn('SW failed:', err));
+    }
+  </script>
+</body>
+</html>
